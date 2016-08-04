@@ -1,0 +1,250 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'i', '-g', 'phonegap' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'phonegap', null ]
+5 verbose cache add name=undefined spec="phonegap" args=["phonegap",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'phonegap',
+6 verbose parsed url   path: 'phonegap',
+6 verbose parsed url   href: 'phonegap' }
+7 silly lockFile 10db903f-phonegap phonegap
+8 verbose lock phonegap /home/gagandeep/.npm/10db903f-phonegap.lock
+9 silly lockFile 10db903f-phonegap phonegap
+10 silly lockFile 10db903f-phonegap phonegap
+11 verbose addNamed [ 'phonegap', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 3a6257f3-phonegap phonegap@
+14 verbose lock phonegap@ /home/gagandeep/.npm/3a6257f3-phonegap.lock
+15 silly addNameRange { name: 'phonegap', range: '*', hasData: false }
+16 verbose url raw phonegap
+17 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap' ]
+18 verbose url resolved https://registry.npmjs.org/phonegap
+19 info trying registry request attempt 1 at 11:50:47
+20 verbose etag "EWO4FRV0L1RDO2MPV7PEQ9W7V"
+21 http GET https://registry.npmjs.org/phonegap
+22 http 200 https://registry.npmjs.org/phonegap
+23 silly registry.get cb [ 200,
+23 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"AFQXGF8396MRCZCU3KPWVHMBV"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     'content-length': '327769',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Thu, 21 Jul 2016 06:20:51 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1469082050.986872,VS0,VE863',
+23 silly registry.get     vary: 'Accept-Encoding' } ]
+24 silly addNameRange number 2 { name: 'phonegap', range: '*', hasData: true }
+25 silly addNameRange versions [ 'phonegap',
+25 silly addNameRange   [ '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.4.1',
+25 silly addNameRange     '0.5.0',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.6.1',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.7.1',
+25 silly addNameRange     '0.7.2',
+25 silly addNameRange     '0.7.3',
+25 silly addNameRange     '0.7.4',
+25 silly addNameRange     '0.7.5',
+25 silly addNameRange     '0.7.6',
+25 silly addNameRange     '0.7.7',
+25 silly addNameRange     '0.7.8',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.9.1',
+25 silly addNameRange     '0.9.2',
+25 silly addNameRange     '0.9.3',
+25 silly addNameRange     '0.9.4',
+25 silly addNameRange     '2.8.0-0.10.0',
+25 silly addNameRange     '2.8.0-0.10.1',
+25 silly addNameRange     '2.8.0-0.10.2',
+25 silly addNameRange     '2.8.0-0.10.3',
+25 silly addNameRange     '2.8.0-0.10.4',
+25 silly addNameRange     '2.8.0-0.10.6',
+25 silly addNameRange     '2.8.1-0.11.0',
+25 silly addNameRange     '2.9.0-0.12.2',
+25 silly addNameRange     '2.9.0-0.12.3',
+25 silly addNameRange     '2.9.0-0.12.4',
+25 silly addNameRange     '2.9.0-0.12.5',
+25 silly addNameRange     '2.9.0-0.12.6',
+25 silly addNameRange     '2.9.0-0.12.7',
+25 silly addNameRange     '2.9.0-0.12.8',
+25 silly addNameRange     '2.9.0-rc1-0.12.0',
+25 silly addNameRange     '2.9.0-rc1-0.12.1',
+25 silly addNameRange     '2.9.0-rc1-0.12.2',
+25 silly addNameRange     '2.9.0-0.12.9',
+25 silly addNameRange     '2.9.0-0.12.10',
+25 silly addNameRange     '2.9.0-0.12.11',
+25 silly addNameRange     '2.9.0-0.13.0',
+25 silly addNameRange     '2.9.0-0.13.1',
+25 silly addNameRange     '2.9.0-0.13.2',
+25 silly addNameRange     '3.0.0-rc1-0.13.2',
+25 silly addNameRange     '3.0.0-rc1-0.13.3',
+25 silly addNameRange     '3.0.0-0.14.0',
+25 silly addNameRange     '3.0.0-0.14.1',
+25 silly addNameRange     '3.0.0-0.14.2',
+25 silly addNameRange     '3.0.0-0.14.3',
+25 silly addNameRange     '3.0.0-0.14.4',
+25 silly addNameRange     '3.1.0-0.15.0',
+25 silly addNameRange     '3.2.0-0.15.0',
+25 silly addNameRange     '3.2.0-0.16.0',
+25 silly addNameRange     '3.2.0-0.17.0',
+25 silly addNameRange     '3.2.0-0.17.1',
+25 silly addNameRange     '3.3.0-0.17.1',
+25 silly addNameRange     '3.3.0-0.18.0',
+25 silly addNameRange     '3.3.0-0.18.1',
+25 silly addNameRange     '3.3.0-0.19.0',
+25 silly addNameRange     '3.3.0-0.19.1',
+25 silly addNameRange     '3.3.0-0.19.2',
+25 silly addNameRange     '3.3.0-0.19.3',
+25 silly addNameRange     '3.3.0-0.19.4',
+25 silly addNameRange     '3.3.0-0.19.5',
+25 silly addNameRange     '3.3.0-0.19.6',
+25 silly addNameRange     '3.4.0-0.19.7',
+25 silly addNameRange     '3.4.0-0.19.8',
+25 silly addNameRange     '3.4.0-0.19.9',
+25 silly addNameRange     '3.4.0-0.19.10',
+25 silly addNameRange     '3.4.0-0.19.11',
+25 silly addNameRange     '3.4.0-0.19.12',
+25 silly addNameRange     '3.4.0-0.19.13',
+25 silly addNameRange     '3.4.0-0.19.14',
+25 silly addNameRange     '3.4.0-0.19.15',
+25 silly addNameRange     '3.4.0-0.19.16',
+25 silly addNameRange     '3.4.0-0.19.17',
+25 silly addNameRange     '3.4.0-0.19.18',
+25 silly addNameRange     '3.4.0-0.19.19',
+25 silly addNameRange     '3.4.0-0.19.20',
+25 silly addNameRange     '3.4.0-0.19.21',
+25 silly addNameRange     '3.4.0-0.20.0',
+25 silly addNameRange     '3.5.0-0.19.23',
+25 silly addNameRange     '3.5.0-0.20.0',
+25 silly addNameRange     '3.5.0-0.20.1',
+25 silly addNameRange     '3.5.0-0.20.3',
+25 silly addNameRange     '3.5.0-0.20.4',
+25 silly addNameRange     '3.5.0-0.20.5',
+25 silly addNameRange     '3.5.0-0.20.6',
+25 silly addNameRange     '3.5.0-0.20.7',
+25 silly addNameRange     '3.5.0-0.20.9',
+25 silly addNameRange     '3.5.0-0.20.10',
+25 silly addNameRange     '3.5.0-0.20.14',
+25 silly addNameRange     '3.5.0-0.21.14',
+25 silly addNameRange     '3.5.0-0.21.15',
+25 silly addNameRange     '3.5.0-0.21.16',
+25 silly addNameRange     '3.5.0-0.21.17',
+25 silly addNameRange     '3.5.0-0.21.18',
+25 silly addNameRange     '3.6.0-0.21.18',
+25 silly addNameRange     '3.6.0-0.21.19',
+25 silly addNameRange     '3.6.3-0.22.0',
+25 silly addNameRange     '3.6.3-0.22.1',
+25 silly addNameRange     '3.6.3-0.22.2',
+25 silly addNameRange     '3.6.3-0.22.3',
+25 silly addNameRange     '3.6.3-0.22.4',
+25 silly addNameRange     '3.6.3-0.22.5',
+25 silly addNameRange     '3.6.3-0.22.6',
+25 silly addNameRange     '3.6.3-0.22.7',
+25 silly addNameRange     '4.0.0-0.22.7',
+25 silly addNameRange     '4.1.2-0.22.7',
+25 silly addNameRange     '4.1.2-0.22.8',
+25 silly addNameRange     '4.1.2-0.22.9',
+25 silly addNameRange     '4.1.2-0.22.10',
+25 silly addNameRange     '4.1.2-0.22.11',
+25 silly addNameRange     '4.1.2-0.22.12',
+25 silly addNameRange     '4.2.0-0.23.0',
+25 silly addNameRange     '4.2.0-0.24.0',
+25 silly addNameRange     '4.2.0-0.24.1',
+25 silly addNameRange     '4.2.0-0.24.2',
+25 silly addNameRange     '4.2.0-0.25.0',
+25 silly addNameRange     '4.2.0-0.26.0',
+25 silly addNameRange     '5.0.0-0.27.0',
+25 silly addNameRange     '5.0.0-0.27.1',
+25 silly addNameRange     '5.0.0-0.28.0',
+25 silly addNameRange     '5.0.0-0.28.1',
+25 silly addNameRange     '5.1.1-0.29.0',
+25 silly addNameRange     '5.1.1',
+25 silly addNameRange     '5.2.0',
+25 silly addNameRange     '5.2.1',
+25 silly addNameRange     '5.2.2',
+25 silly addNameRange     '5.2.3',
+25 silly addNameRange     '5.3.1',
+25 silly addNameRange     '5.3.2',
+25 silly addNameRange     '5.3.3',
+25 silly addNameRange     '5.3.4',
+25 silly addNameRange     '5.3.5',
+25 silly addNameRange     '5.3.6',
+25 silly addNameRange     '5.3.7',
+25 silly addNameRange     '5.3.8',
+25 silly addNameRange     '5.3.9',
+25 silly addNameRange     '5.3.10',
+25 silly addNameRange     '5.4.0',
+25 silly addNameRange     '5.4.1',
+25 silly addNameRange     '5.5.0',
+25 silly addNameRange     '5.5.1',
+25 silly addNameRange     '5.5.2',
+25 silly addNameRange     '6.0.0',
+25 silly addNameRange     '6.0.1',
+25 silly addNameRange     '6.0.2',
+25 silly addNameRange     '6.0.3',
+25 silly addNameRange     '6.0.4',
+25 silly addNameRange     '6.0.5',
+25 silly addNameRange     '6.1.0',
+25 silly addNameRange     '6.2.0',
+25 silly addNameRange     '6.2.1',
+25 silly addNameRange     '6.2.2',
+25 silly addNameRange     '6.2.3',
+25 silly addNameRange     '6.2.4',
+25 silly addNameRange     '6.2.5',
+25 silly addNameRange     '6.2.6',
+25 silly addNameRange     '6.2.7',
+25 silly addNameRange     '6.2.8',
+25 silly addNameRange     '6.2.9',
+25 silly addNameRange     '6.3.0' ] ]
+26 verbose addNamed [ 'phonegap', '6.3.0' ]
+27 verbose addNamed [ '6.3.0', '6.3.0' ]
+28 silly lockFile 8a51bc7f-phonegap-6-3-0 phonegap@6.3.0
+29 verbose lock phonegap@6.3.0 /home/gagandeep/.npm/8a51bc7f-phonegap-6-3-0.lock
+30 silly lockFile eef0f911--org-phonegap-phonegap-6-3-0-tgz https://registry.npmjs.org/phonegap/-/phonegap-6.3.0.tgz
+31 verbose lock https://registry.npmjs.org/phonegap/-/phonegap-6.3.0.tgz /home/gagandeep/.npm/eef0f911--org-phonegap-phonegap-6-3-0-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/phonegap/-/phonegap-6.3.0.tgz',
+32 verbose addRemoteTarball   'e0d3e2ce94264cc2c5ddbd9220724263c94e8741' ]
+33 silly lockFile eef0f911--org-phonegap-phonegap-6-3-0-tgz https://registry.npmjs.org/phonegap/-/phonegap-6.3.0.tgz
+34 silly lockFile eef0f911--org-phonegap-phonegap-6-3-0-tgz https://registry.npmjs.org/phonegap/-/phonegap-6.3.0.tgz
+35 silly lockFile 8a51bc7f-phonegap-6-3-0 phonegap@6.3.0
+36 silly lockFile 8a51bc7f-phonegap-6-3-0 phonegap@6.3.0
+37 silly lockFile 3a6257f3-phonegap phonegap@
+38 silly lockFile 3a6257f3-phonegap phonegap@
+39 error Error: EACCES, mkdir '/home/gagandeep/tmp/npm-16838-NRASosoy'
+39 error  { [Error: EACCES, mkdir '/home/gagandeep/tmp/npm-16838-NRASosoy']
+39 error   errno: 3,
+39 error   code: 'EACCES',
+39 error   path: '/home/gagandeep/tmp/npm-16838-NRASosoy' }
+40 error Please try running this command again as root/Administrator.
+41 error System Linux 4.2.0-27-generic
+42 error command "/usr/bin/nodejs" "/usr/bin/npm" "i" "-g" "phonegap"
+43 error cwd /var/www/html/helloworld
+44 error node -v v0.10.25
+45 error npm -v 1.3.10
+46 error path /home/gagandeep/tmp/npm-16838-NRASosoy
+47 error code EACCES
+48 error errno 3
+49 error stack Error: EACCES, mkdir '/home/gagandeep/tmp/npm-16838-NRASosoy'
+50 verbose exit [ 3, true ]

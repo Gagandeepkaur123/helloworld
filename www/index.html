@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#submit").click(function(){
+			var height = $("#length").val();
+			var width = $("#height").val();			
+			$.ajax({
+				url:"http://172.16.7.165/arce1/rectangle/index.php",
+				type:"POST",
+				data:{"currentStep":1,"rccItem[0]":height,"rccItem[1]":width},
+				async:false
+			}).done(function(response){
+				$("#ShowResult").html(response);
+			})
+		});
+	});
+
+	</script>
+</head>
+<body>
+<input type="text" id="length"></input>
+<input type="text" id="height"></input>
+<input type="button" id="submit" name="Submit"></input>
+	<div id="ShowResult"></div>
+</body>
+</html>
